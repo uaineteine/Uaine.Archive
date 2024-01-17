@@ -2,16 +2,16 @@
 
 namespace Uaine.Archive
 {
-    public class Arrary<T>
+    public class DataArray<T>
     {
         public T[] Items { get; private set; }
         public int Size { get => Items.Length; }
 
-        public Arrary(string[] json)
+        public DataArray(string[] json)
         {
             Items = ArraySerialiser.DeserializeFromJson<T>(json);
         }
-        public Arrary(T[] items)
+        public DataArray(T[] items)
         {
             Items = items;
         }
