@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uaine.Archive", "Uaine.Archive.csproj", "{493E478B-E7C2-4A27-81C7-77D75B76548F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{493E478B-E7C2-4A27-81C7-77D75B76548F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493E478B-E7C2-4A27-81C7-77D75B76548F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493E478B-E7C2-4A27-81C7-77D75B76548F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493E478B-E7C2-4A27-81C7-77D75B76548F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59C00607-783E-453A-8EAE-25BF8A641FA2}
+	EndGlobalSection
+EndGlobal
