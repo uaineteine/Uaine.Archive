@@ -1,6 +1,6 @@
 namespace Uaine.Archive
 {
-    public class Archive<T>
+    public class Archive
     {
         private List<JsonFileStore<T>> fileStores;
 
