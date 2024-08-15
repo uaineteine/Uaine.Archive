@@ -1,4 +1,5 @@
-﻿using Uaine.IO;
+﻿using Newtonsoft.Json;
+using Uaine.IO;
 
 namespace Uaine.Archive
 {
@@ -19,7 +20,8 @@ namespace Uaine.Archive
         {
             DataName = dataname;
             Dataarray = new DataArray<T>(items);
-            Lines = Dataarray.SerialiseToJSON();
+            string json = JsonConvert.SerializeObject(this);
+            Lines = new string[] { json };
             SaveAllLines();
         }
     }
