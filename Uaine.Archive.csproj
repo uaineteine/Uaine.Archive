@@ -4,10 +4,26 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Version>0.3</Version>
+    <Copyright>Daniel Stamer-Squair 2024</Copyright>
+    <Title>Uaine.Archive</Title>
+    <Authors>Daniel Stamer-Squair</Authors>
+    <Company />
+    <Description>A C# .NET standard project for managing collections of JSON file stores</Description>
+    <PackageProjectUrl>https://github.com/uaineteine/Uaine.Archive</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/uaineteine/Uaine.Archive</RepositoryUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Uaine.IO" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

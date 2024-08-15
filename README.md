@@ -6,7 +6,7 @@ A C# .NET standard project for managing collections of JSON file stores.
 
 Add source project to solution with reference to get started or install via [NuGet](https://www.nuget.org/packages/Uaine.Archive/)
 
-## Version 0.1
+## Version 0.3
 
 See the [changelog](changelog.txt) for details.
 
